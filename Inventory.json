@@ -1,19 +1,55 @@
 {
-  "TypesOfStock": [
+  "CommonStocks": [
     {
-      "name": "Indian oil ",
-      "NoOfshare": 22,
-      "price": 2424
+      "sharename": "AllCargo",
+      "numberOfShare": 100,
+      "sharePrice": 1000
     },
     {
-      "name": " Reliance ",
-      "NoOfshare": 44,
-      "price": 4444
+      "sharename": "ABP",
+      "numberOfShare": 120,
+      "sharePrice": 2400
     },
     {
-      "name": "TATA Motors ",
-      "NoOfshare": 66,
-      "price": 6666
+      "sharename": "ITBP",
+      "numberOfShare": 90,
+      "sharePrice": 1500
+    }
+  ],
+
+  "PreferredStocks": [
+    {
+      "sharename": "GlenMark",
+      "numberOfShare": 150,
+      "sharePrice": 1050
+    },
+    {
+      "sharename": "ECL",
+      "numberOfShare": 90,
+      "sharePrice": 2100
+    },
+    {
+      "sharename": "FDC",
+      "numberOfShare": 130,
+      "sharePrice": 1700
+    }
+  ],
+
+  "HybridStocks": [
+    {
+      "sharename": "coalIndia",
+      "numberOfShare": 170,
+      "sharePrice": 950
+    },
+    {
+      "sharename": "CCL",
+      "numberOfShare": 135,
+      "sharePrice": 800
+    },
+    {
+      "sharename": "CNBP",
+      "numberOfShare": 70,
+      "sharePrice": 4000
     }
   ]
 
