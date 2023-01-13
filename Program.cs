@@ -10,7 +10,6 @@
             ReadData obj = new ReadData();
             var Info = obj.Read(path);
 
-            //Storing the multiple values of Array in List.
             Console.WriteLine("--------------------");
 
             Console.WriteLine("Types of Rice is:");
@@ -21,7 +20,9 @@
                 Console.WriteLine(Info.typesOfRice[i].weight);
                 Console.WriteLine(Info.typesOfRice[i].price);
 
-
+                int val = Info.typesOfRice[i].weight * Info.typesOfRice[i].price;
+                Console.WriteLine("The price for " + Info.typesOfRice[i].weight + " kg is " + val);
+                Console.WriteLine();
             }
             Console.WriteLine("--------------------");
 
@@ -35,7 +36,9 @@
                 Console.WriteLine(Info.typesOfPulses[i].weight);
                 Console.WriteLine(Info.typesOfPulses[i].price);
 
-
+                int val = Info.typesOfPulses[i].weight * Info.typesOfPulses[i].price;
+                Console.WriteLine("The price for " + Info.typesOfPulses[i].weight + " kg is " + val);
+                Console.WriteLine();
 
             }
             Console.WriteLine("--------------------");
@@ -49,8 +52,14 @@
                 Console.WriteLine(Info.typesOfWheat[i].weight);
                 Console.WriteLine(Info.typesOfWheat[i].price);
 
+                int val = Info.typesOfWheat[i].weight * Info.typesOfWheat[i].price;
+                Console.WriteLine("The price for " + Info.typesOfWheat[i].weight + " kg is " + val);
+                Console.WriteLine();
+
+
             }
         }
     }
 }
+
 

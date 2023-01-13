@@ -16,7 +16,6 @@
       "price": 240
     }
   ],
-
   "TypesOfPulses": [
     {
       "name": "HotPulse",
@@ -52,4 +51,8 @@
       "price": 240
     }
   ]
+
 }
+
+ 
+   
